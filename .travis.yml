@@ -11,7 +11,7 @@ git:
 
 env:
   global:
-  - ENCRYPTION_LABEL: "405644585b51"
+  - ENCRYPTION_LABEL: "d8f0b56241d0"
   - COMMIT_AUTHOR_EMAIL: "wenzhixin2010@gmail.com"
 
 sudo: false
