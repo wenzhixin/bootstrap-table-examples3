@@ -2,6 +2,25 @@ body {
   overflow: hidden;
 }
 
+.v4-tease {
+  display: block;
+  padding: 15px 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: #0275d8;
+}
+
+.v4-tease:focus, .v4-tease:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0269c2;
+}
+
+.navbar-fixed-top {
+  top: 50px;
+}
+
 .nav-list {
   top: 50px;
   left: 0;
@@ -97,7 +116,7 @@ a.toggle .glyphicon-chevron-right,
 .content {
   position: fixed;
   width: 100%;
-  top: 50px;
+  top: 100px;
   bottom: 30px;
 }
 
