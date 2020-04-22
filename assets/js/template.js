@@ -1,8 +1,8 @@
 window._config = {
   isDebug: location.hash.slice(1) === 'is-debug' ||
   ['localhost', 'dev.wenzhixin.net.cn'].indexOf(location.hostname) > -1,
-  cdnUrl: 'https://unpkg.com/bootstrap-table/dist/',
-  localUrl: '../bootstrap-table/src/'
+  cdnUrl: 'https://unpkg.com/bootstrap-table@1.13.1/dist/',
+  localUrl: 'https://unpkg.com/bootstrap-table@1.13.1/dist/'
 }
 
 function _getLink(file) {
